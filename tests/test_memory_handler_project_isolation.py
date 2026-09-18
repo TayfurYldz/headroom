@@ -317,6 +317,7 @@ def test_unresolved_project_returns_no_context(tmp_path: Path) -> None:
 
     asyncio.run(run())
 
+
 @pytest.mark.parametrize(
     ("tool_name", "input_data"),
     [
